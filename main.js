@@ -1,19 +1,14 @@
-//for(let index = 0; index <= 10; index++) {
-   // console.log(index);
-//}
+// Versão corrigida
+class Person {
+    constructor(firstname, lastname, age) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+    }
+}
 
-//const cars = ['Ferrari', 'Mercedes', 'Tesla', 'VW'];
 
-//for (let i = 0; i < cars.length; i++) {
-
-    //console.log(cars[i])
-//}
-
-//for (let car of cars) {
-    //console.log(car);
-//}
-//cars.forEach(function(car, index) {
-    //console.log(car);
-    //console.log(index);
-//});
-
+const person1 = new Person("João", "Neymar", 20);
+console.log(person1.firstname); 
+console.log(person1.lastname);  
+console.log(person1.age);      
