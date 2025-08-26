@@ -33,6 +33,3 @@ const person={
 for (property in person) {
     console.log(person[property]);
 }
-
-
- 
